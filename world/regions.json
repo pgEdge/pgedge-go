@@ -1,0 +1,578 @@
+[
+  {
+    "cloud": "aws",
+    "location": "IAD",
+    "name": "us-east-1",
+    "zones": ["a", "b", "c", "d", "e", "f"]
+  },
+  {
+    "cloud": "aws",
+    "location": "CMH",
+    "name": "us-east-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "SFO",
+    "name": "us-west-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "PDT",
+    "name": "us-west-2",
+    "zones": ["a", "b", "c", "d"]
+  },
+  {
+    "cloud": "aws",
+    "location": "MTL",
+    "name": "ca-central-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "FRA",
+    "name": "eu-central-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "ZRH",
+    "name": "eu-central-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "DUB",
+    "name": "eu-west-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "LHR",
+    "name": "eu-west-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "CDG",
+    "name": "eu-west-3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "ARN",
+    "name": "eu-north-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "MXP",
+    "name": "eu-south-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "HKG",
+    "name": "ap-east-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "BOM",
+    "name": "ap-south-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "HYD",
+    "name": "ap-south-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "NRT",
+    "name": "ap-northeast-1",
+    "zones": ["a", "b", "c", "d"]
+  },
+  {
+    "cloud": "aws",
+    "location": "ICN",
+    "name": "ap-northeast-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "ITM",
+    "name": "ap-northeast-3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "SIN",
+    "name": "ap-southeast-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "SYD",
+    "name": "ap-southeast-2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "CGK",
+    "name": "ap-southeast-3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "MEL",
+    "name": "ap-southeast-4",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "GRU",
+    "name": "sa-east-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "CPT",
+    "name": "af-south-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "BAH",
+    "name": "me-south-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "aws",
+    "location": "TLV",
+    "name": "il-central-1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "PDT",
+    "name": "us-west1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "LAX",
+    "name": "us-west2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "SLC",
+    "name": "us-west3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "LAS",
+    "name": "us-west4",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "DSM",
+    "name": "us-central1",
+    "zones": ["a", "b", "c", "f"]
+  },
+  {
+    "cloud": "google",
+    "location": "CHS",
+    "name": "us-east1",
+    "zones": ["b", "c", "d"]
+  },
+  {
+    "cloud": "google",
+    "location": "IAD",
+    "name": "us-east4",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "CMH",
+    "name": "us-east5",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "DFW",
+    "name": "us-south1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "MTL",
+    "name": "northamerica-northeast1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "YYZ",
+    "name": "northamerica-northeast2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "GRU",
+    "name": "southamerica-east1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "SCL",
+    "name": "southamerica-west1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "LHR",
+    "name": "europe-west2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "BRU",
+    "name": "europe-west1",
+    "zones": ["b", "c", "d"]
+  },
+  {
+    "cloud": "google",
+    "location": "AMS",
+    "name": "europe-west4",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "ZRH",
+    "name": "europe-west6",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "FRA",
+    "name": "europe-west3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "HEL",
+    "name": "europe-north1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "WAW",
+    "name": "europe-central2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "MXP",
+    "name": "europe-west8",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "MAD",
+    "name": "europe-southwest1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "CDG",
+    "name": "europe-west9",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "TRN",
+    "name": "europe-west12",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "BOM",
+    "name": "asia-south1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "DEL",
+    "name": "asia-south2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "SIN",
+    "name": "asia-southeast1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "CGK",
+    "name": "asia-southeast2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "HKG",
+    "name": "asia-east2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "TPE",
+    "name": "asia-east1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "NRT",
+    "name": "asia-northeast1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "ITM",
+    "name": "asia-northeast2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "SYD",
+    "name": "australia-southeast1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "MEL",
+    "name": "australia-southeast2",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "ICN",
+    "name": "asia-northeast3",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "DOH",
+    "name": "me-central1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "google",
+    "location": "TLV",
+    "name": "me-west1",
+    "zones": ["a", "b", "c"]
+  },
+  {
+    "cloud": "azure",
+    "location": "SEA",
+    "name": "westus2",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "PHX",
+    "name": "westus3",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "JAC",
+    "name": "westcentralus",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "DSM",
+    "name": "centralus",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "DFW",
+    "name": "southcentralus",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "CHI",
+    "name": "northcentralus",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "IAD",
+    "name": "eastus",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "RIC",
+    "name": "eastus2",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "YYZ",
+    "name": "canadacentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "MTL",
+    "name": "canadaeast",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "GRU",
+    "name": "brazilsouth",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "JNB",
+    "name": "southafricanorth",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "DUB",
+    "name": "northeurope",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "CWL",
+    "name": "ukwest",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "LHR",
+    "name": "uksouth",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "CDG",
+    "name": "francecentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "ARN",
+    "name": "swedencentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "OSL",
+    "name": "norwayeast",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "AMS",
+    "name": "westeurope",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "FRA",
+    "name": "germanywestcentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "ZRH",
+    "name": "switzerlandnorth",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "DOH",
+    "name": "qatarcentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "AUH",
+    "name": "uaenorth",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "PNQ",
+    "name": "centralindia",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "MAA",
+    "name": "southindia",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "SIN",
+    "name": "southeastasia",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "HKG",
+    "name": "eastasia",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "ICN",
+    "name": "koreacentral",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "ITM",
+    "name": "japanwest",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "NRT",
+    "name": "japaneast",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "SYD",
+    "name": "australiaeast",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "MEL",
+    "name": "australiasoutheast",
+    "zones": ["1", "2", "3"]
+  },
+  {
+    "cloud": "azure",
+    "location": "CBR",
+    "name": "australiacentral",
+    "zones": ["1", "2", "3"]
+  }
+]
